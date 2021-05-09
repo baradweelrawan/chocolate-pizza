@@ -1,0 +1,169 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    border: black;
+   /* margin:20px ;*/
+   /*padding: 50px;*/
+  /* position: absolute;*/
+}
+header img{
+    margin-bottom:20px;
+    margin-right: 5px;
+}
+header h1{
+    display: inline-block;
+    /*margin-top:20px ;*/
+    width: 50px;
+    height:50px ;
+    font-family:'Lobster','cursive';
+   /* padding-top: 30px;*/
+   margin-top: -5px;
+   position: absolute;
+}
+header p{
+   /* display: inline-block;*/
+    font-family:'Open Sans Condense' ;
+    font-size 5px ;
+    color: gray;
+    margin-top: -39px ;
+   /* float: left;*/
+    margin-left:50px ;
+    /*padding-top:5px;*/
+    position: absolute;
+    
+    
+}
+/*header ul{
+    display: inline-block;
+     margin-right: 20px
+}*/
+
+header ul li{
+    display: inline-block;
+    /*margin-left: 50%;*/
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 50px;
+   /*margin-top: -50px;*/
+}
+main{
+    padding: 50px;
+    display:inline-block;
+    
+}
+main artical section h1{
+    display: inline-block;
+    position: absolute;
+    margin-top: -150px;
+    font-family: 'Monda', 'sans-serif';
+    font-size: 30px;
+}
+main artical section h2{
+    /*display: inline-block;*/
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: small;
+    font-style: normal;
+    color: gray;
+    margin-bottom: 50px;
+    margin-top:50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: absolute;
+    margin-top: -118px;
+    
+}
+
+main artical section img{
+   /*display: inline-block;*/
+   /* position: absolute;*/
+    margin-top: -70px;
+}
+
+#paragraph{
+    display: inline-block;
+    font-family:inherit;
+    font-size: 25;
+    color: gray;
+    border: bold;
+    float: right;
+    /*padding-inline-start: 10px;*/
+    margin-block-start: 10px;
+    float: right;
+}
+
+#left{
+    display: inline-block;
+    font-family:'Pangolin', cursive;
+    color: rgb(54, 53, 53);
+    /*text-decoration: line-through;*/
+    box-sizing: border-box;
+    /*-background-image: url("images/list-bg.png");*/
+    background-image: url(../images/list-bg.png);
+   
+    /*background:url("images/list-bg.png") no-repeat;*/
+
+}
+#left fieldset{
+    display: inline-block;
+    margin-left: 50px;
+    border:none;
+    
+}
+.right{
+    text-decoration: line-through;
+   
+}
+main article section div{
+    display: inline-block;
+    margin-bottom: 30px;
+    color: rgb(31, 29, 29);
+    
+    
+}
+
+section div img{
+    margin-bottom: -60px;
+} 
+section div h3
+{
+    font-family: inherit;
+    margin:5px;
+    margin-left:75px ;
+    color: rgb(97, 94, 94);
+}
+section div p{
+    margin-left:75px ;
+    margin-top: -5px;
+    font-family:'Frank Ruhl Libre' ;
+    font-size: 15px;;
+    color: gray;
+
+}
+
+section div button {
+    background: rgb(158, 68, 68); 
+    color: rgb(255, 250, 250);
+    font-size: 15px;
+    border: none;
+    float: right;
+    margin-left: 55%;
+    margin-top: -40px;
+    position: absolute;
+}
+
+footer img{
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -50px;
+    transform: translateY(50%);
+}
+footer p{
+    text-align: center;
+    color: gray;
+   /* margin-top: 5px;*/
+  /* padding: 5px;*/
+}
+
